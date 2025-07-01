@@ -75,3 +75,5 @@ Once the script finishes:
 ## Support
 
 For questions or issues, please open an issue in this repository.
+If this script has helped you do something useful, please give this repository a star. :)
+
