@@ -1,0 +1,36 @@
+# Ignore editor swap and backup files
+*~
+.*.swp
+.*.swo
+*.bak
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Ignore any potential secret files accidentally added
+secrets.env
+.env
+
+# Ignore shell history files
+.bash_history
+
+# Ignore Vim backup files
+*.un~
+
+# Ignore compiled Python (if adding helpers later)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore any archive files
+*.tar
+*.tar.gz
+*.zip
+*.tgz
