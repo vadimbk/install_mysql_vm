@@ -1,4 +1,4 @@
-# Ubuntu MySQL Server Setup Script for Internal Clusters
+# Ubuntu MySQL Server (VM) Setup Script for Internal Clusters
 
 This repository provides an automated Bash script for deploying and configuring a standalone MySQL 8 server on Ubuntu 20.04, 22.04, or 24.04. This script is specifically designed for virtual machines (VMs) or containers operating in a mini-cluster connected to a private internal network, such as a Proxmox cluster or a private cloud environment.
 
@@ -38,7 +38,7 @@ This script is intended for private clusters, where VMs or containers share a se
 
 1.  **Clone or Copy:** Get this script onto your Ubuntu VM or container.
 2.  **Edit Configuration:** Open the script (you can use `vim`!) and modify the configuration parameters at the top:
-    * `ALLOWED_SUBNET`: Your internal subnet allowed to access MySQL (e.g., `10.101.0.0/24`).
+    * `ALLOWED_SUBNET`: Your internal subnet allowed to access MySQL (e.g., `10.0.0.0/24`).
     * `MYSQL_ROOT_PASSWORD`: The password for the MySQL `root` user.
     * `NEW_DB_USER` / `NEW_DB_USER_PASSWORD`: Credentials for your application user.
     * `SUDO_USER_NAME` / `SUDO_USER_PASSWORD`: Credentials for a new sudo-enabled system user.
